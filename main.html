@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Metro, a sleek, intuitive, and powerful framework for faster and easier web development for Windows Metro Style.">
+    <meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, metro, front-end, frontend, web development">
+    <meta name="author" content="Sergey Pimenov and Metro UI CSS contributors">
+    <link rel="icon" href="favicon.ico" type="img/x-icon">
+
+    <title>Udacity Full Stack Web Developer Project: Introduction to Front End Development</title>
+
+    <link href="css/metro.css" rel="stylesheet">
+    <link href="css/metro-icons.css" rel="stylesheet">
+    <link href="css/metro-responsive.css" rel="stylesheet">
+    <link href="css/metro-schemes.css" rel="stylesheet">
+    <link href="css/docs.css" rel="stylesheet">
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/metro.js"></script>
+    <script src="js/docs.js"></script>
+    <script src="http://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <script src="js/ga.js"></script>
+    <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+<!-- Menu ｜ Start -->
+<div class="app-bar fixed-top" data-role="appbar">
+    <div class="app-bar-element">
+
+        <span id="toggle-tiles-dropdown" class="mif-apps mif-2x"></span>
+        
+        <div class="app-bar-drop-container" data-role="dropdown" data-toggle-element="#toggle-tiles-dropdown" data-no-close="false">
+            <div class="bg-white">
+                <ul class="t-menu navy">
+                    <li><a href="https://www.linkedin.com/in/jung-min-seo-683b238b" target="_blank"><span class="mif-linkedin"></span></a></li>
+                    <li><a href="https://github.com/jseo3582" target="_blank"><span class="mif-github"></span></a></li>
+                    <li><a href="https://www.facebook.com/james.seo.92" target="_blank"><span class="mif-facebook"></span></a></li>
+                    <li><a href="https://plus.google.com/u/0/112412659830260511659" target="_blank"><span class="mif-google-plus"></span></a></li>
+               </ul>
+            </div>
+        </div>
+    </div>
+        <span class="app-bar-divider"></span>
+        <a class="app-bar-element" style="" href="main.html">Home</a>
+        <span class="app-bar-divider"></span>
+        <ul class="app-bar-menu">
+        <li>
+            <a href="" class="dropdown-toggle">Document</a>
+            <ul class="d-menu" data-role="dropdown">
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML (MDN)</a></li>
+                <li class="divider"></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">CSS (MDN)</a></li>
+                <li class="divider"></li>
+                <li><a href="https://developer.mozilla.org/bm/docs/Web/JavaScript" target="_blank">JavaScript (MDN)</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="" class="dropdown-toggle">Front-End Frame</a>
+            <ul class="d-menu" data-role="dropdown">
+                <li><a href="https://metroui.org.ua/" target="_blank">Metro UI</a></li>
+                <li class="divider"></li>
+                <li><a href="https://foundation.zurb.com/" target="_blank">Foundation</a></li>
+                <li class="divider"></li>
+                <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+                <li class="divider"></li>
+                <li><a href="https://purecss.io/" target="_blank">Pure</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="" class="dropdown-toggle">Image Lib</a>
+            <ul class="d-menu" data-role="dropdown">
+                <li><a href="https://unsplash.com/" target="_blank">Unsplash (Pictures)</a></li>
+                <li class="divider"></li>
+                <li><a href="https://www.toptal.com/designers/subtlepatterns/" target="_blank">toptal (Patterns)</a></li>
+                <li class="divider"></li>
+                <li><a href="https://www.flaticon.com/" target="_blank">Flaticon (Icons)</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="" class="dropdown-toggle">Validation</a>
+            <ul class="d-menu" data-role="dropdown">
+                <li><a href="https://validator.w3.org/" target="_blank">HTML Validation (W3C)</a></li>
+                <li class="divider"></li>
+                <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validation (W3C)</a></li>
+            </ul>
+        </li>
+        <li><a href="https://www.awwwards.com/websites/responsive-design/" target="_blank">Ref. Websites</a></li>
+    </ul>
+</div>
+<!-- Menu ｜ End -->
+
+<div class="JSEO_top_space"></div> <!-- responsive spacer between menu and header  -->
+
+<div class="container page-content">
+<!-- Header ｜ Start -->
+<div class="JSEO_top_container">
+    <div class="JSEO_top_logo margin10">
+            <img src="img/Udacity_logo_wide.png" class="" alt="Udacity Logo">
+    </div>
+    <div class="JSEO_top_Text v-align-middle align-right JSEO_space">
+        <h2>JAMES SEO<br><small>Web Developer</small></h2>
+    </div>
+</div>
+</div>
+
+<hr class="thin bg-darkBlue"/>
+<!-- Header｜ End -->
+
+
+<!-- Slideshow ｜ Start -->
+<div class="container page-content JSEO_center">
+    <div class="carousel" data-role="carousel" data-height="" data-controls="false" data-markers="true">
+        <div class="slide flex-just-center">
+            <img src="img/main_slide_1.jpg" data-role="fitImage" data-format="fill" alt="horizon">
+        </div>
+        <div class="slide">
+            <img src="img/main_slide_2.jpg" data-role="fitImage" data-format="fill" alt="sunset">
+        </div>
+        <div class="slide">
+            <img src="img/main_slide_3.jpg" data-role="fitImage" data-format="fill" alt="Penguin">
+        </div>
+        <div class="slide">
+            <img src="img/main_slide_4.jpg" data-role="fitImage" data-format="fill" alt="Lake">
+        </div>
+    </div>
+</div>
+<!-- Slideshow ｜ End -->
+
+<!-- Contents ｜ Start -->
+<div class="container page-content">
+    <div class="example" data-text="">
+        <h3>Featured Work</h3>
+        <div class="grid">
+            <div class="row cells3">
+
+                <div class="cell">
+                    <div class="window error">
+                        <div class="window-caption">
+                            <div class="tile fitin fg-white bg-transparent " data-role="tile" data-effect="slideUpDown">
+
+                                <div class="tile-content">
+                                    <div class="live-slide"><img src="img/emma2.jpg" data-role="fitImage" data-format="fill" alt="beautiful emma"></div>
+                                    <div class="live-slide"><img src="img/emma1.jpg" data-role="fitImage" data-format="fill" alt="singing emma"></div>
+                                </div>
+                                    <div class="tile-label fg-white"><Strong>The Girl</Strong> </div>
+                            </div>
+                        </div>
+                        <div class="window-content">
+                            <span> <Strong> Emma Stone </Strong> is born and raised in Scottsdale, Arizona. Stone gained wider recognition for playing Gwen Stacy in the 2012 film The Amazing Spider-Man, and its sequel in 2014. She was nominated for an Academy Award for Best Supporting Actress for the role of a recovering drug addict in the black comedy-drama Birdman (2014). (from Wikipedia) </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cell">
+                    <div class="window warning">
+                        <div class="window-caption">
+                            <div class="tile fitin fg-white bg-transparent " data-role="tile">
+                                <div class="tile-content zooming-out">
+                                    <div class="slide"> 
+                                        <img src="img/pol.jpg" alt="Police officers"> </div>
+                                    <div class="slide-over bg-magenta text-small padding10 "></div>
+                                    <div class="tile-label fg-white"> Photo by Spenser H on Unsplash</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-content">
+                            <span> <Strong> Police officers </Strong> (This photo was taken from Washington, United States. I am not in the picture.) My duties as a police officer were IT support & homepage management, and riot control. I wounded in the line of duty and retired 2006.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cell">
+                    <div class="window success">
+                        <div class="window-caption">
+                            <div class="tile fitin fg-white bg-transparent " data-role="tile">
+                                <div class="tile-content">
+                                    <div class="image-container">
+                                        <div class="frame">
+                                            <img src="img/ASU.jpg" alt="Arizona State University Logo">
+                                        </div>
+                                    <div class="image-overlay op-green">
+                                        <h2> # 1 <br>Innoavtive School</h2>
+                                        <p>  </p>
+                                    </div>
+                                    </div>
+                                    <div class="tile-label">ASU</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-content">
+                            <span> <Strong>Arizona State University </Strong> is a public metropolitan research university on five campuses across the Phoenix metropolitan area, and four regional learning centers throughout Arizona. The 2018 university ratings by U.S. News & World Report rank ASU No. 1 among the Most Innovative Schools in America for the third year in a row. (from Wikipedia)</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contents ｜ END -->
+
+<!-- Footer ｜ Start -->
+<footer>
+    <div class="bg-steel no-tablet-portrait no-phone">
+        <div class="container padding20 fg-white">
+            <div class="carousel bg-transparent" data-role="carousel" data-controls="false" data-markers="false" data-effect="fade" data-height="60">
+                <div class="slide fg-white">
+                    <h4>About this page</h4>
+                    <p>This web page builds with Metro UI CSS framework. Metro UI CSS was developed by Sergey Pimenov, and the code of this web page was modified and added by JAMES SEO.</p>
+                </div>
+            </div>
+            <div class="align-center padding10 text-small">
+                Copyright © 2017 <a href="mailto:jseo3582@gmail.com"><strong>JAMES SEO</strong></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer ｜ END -->
+</body>
+
+
+<!-- LICENSING
+
+MIT License
+
+Copyright (c) 2017 JAMES SEO
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-->
